@@ -1,0 +1,8 @@
+C:\CSharp\ass\Kalkulator\bin\Debug\Kalkulator.exe
+C:\CSharp\ass\Kalkulator\bin\Debug\Kalkulator.pdb
+C:\CSharp\ass\Kalkulator\obj\Debug\Kalkulator.csprojResolveAssemblyReference.cache
+C:\CSharp\ass\Kalkulator\obj\Debug\Kalkulator.Form1.resources
+C:\CSharp\ass\Kalkulator\obj\Debug\Kalkulator.Properties.Resources.resources
+C:\CSharp\ass\Kalkulator\obj\Debug\Kalkulator.csproj.GenerateResource.Cache
+C:\CSharp\ass\Kalkulator\obj\Debug\Kalkulator.exe
+C:\CSharp\ass\Kalkulator\obj\Debug\Kalkulator.pdb
