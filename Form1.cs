@@ -25,28 +25,10 @@ namespace Kalkulator
         {
             double firstValue = Convert.ToDouble(input1.Text);
             double lastValue = Convert.ToDouble(input2.Text);
-            double result;
-            switch (((Button)sender).Name)
-            {
-                case "Sum":
-                result = firstValue + lastValue;
-                break;
+            ITwoArgumentsOperation calculator = TwoArgumentsCalculatorsFactory.CreateCalculator(((Button)sender).Name);
+            double result = calculator.Calculate(firstValue, lastValue);
 
-                case "Min":
-                result = firstValue - lastValue;
-                break;
-
-                case "Mul":
-                result = firstValue * lastValue;
-                break;
-
-                case "Div":
-                result = firstValue / lastValue;
-                break;
-
-                default:
-                throw new Exception("Неизвестная операция");
-            }
+          
 
             Answer.Text = result.ToString();
         }
